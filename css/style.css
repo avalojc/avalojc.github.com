@@ -84,10 +84,8 @@ footer{
 	display: flex;
 	flex-direction: column;
 	width: 1000px;
-	background-size: ;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: center;
 	width: 250px;
 }
 .hiblock {
