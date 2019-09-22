@@ -67,7 +67,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 98%;
+	width: 980px;
 	height: 40px;
 	margin: 4px 0 4px 0;
 	padding: 4px;
@@ -80,14 +80,15 @@ footer{
 	padding: 4px;
 }
 .main {
-	background: url(../images/ladybug.jpg);
+	background: url(../images/ladybug.png);
 	display: flex;
 	flex-direction: column;
-	background-size: cover;
+	width: 1000px;
+	background-size: ;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: center;
-	width: 100%;
+	width: 250px;
 }
 .hiblock {
 
@@ -102,11 +103,12 @@ footer{
 
 }
 .welcome {
-	width: 200px ;
+	width: 820px ;
 	align-self: center;
-	color:White;
+	color:black;
 	font-size: 1.5em;
 	font-weight: 900;
+	margin-top: 200px;
 }
 ul li {
 	display: inline;
