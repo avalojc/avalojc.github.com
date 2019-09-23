@@ -52,6 +52,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background: url(https://res.cloudinary.com/www-virgin-com/w_auto,c_scale,dpr_auto,f_auto,fl_lossy,q_auto/virgin-com-prod/profiles/site_installer/themes/custom/virgin/images/bg-main.png?1568875393);
 }
 .wrapper {
 	width:	1000px;
@@ -69,11 +70,14 @@ header {
 	align-items: center;
 	width: 980px;
 	height: 40px;
-	margin: 4px 0 4px 0;
+	margin: 4px 0 10px 0;
 	padding: 4px;
 }
 footer{
-	background: blue;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 	width: 98%;
 	height: 40px;
 	margin: 4px 0 4px 0;
@@ -89,7 +93,6 @@ footer{
 	width: 250px;
 }
 .hiblock {
-
 	display: flex;
 	flex-direction: column;
 	width: 200px;
@@ -98,7 +101,6 @@ footer{
 	margin: 200px 2px 2px 2px;
 	padding: 20px 0 20px 0;
 	text-align: center;
-
 }
 .welcome {
 	width: 820px ;
@@ -161,4 +163,11 @@ h1 {
 }
 h2 {
 	font-size: 1.5em;
+}
+/*shadow sections below*/
+header, .hijoA, .hijoB, .hijoC, .Me1, .Me2, .Me3, .alpha, .beta, footer {
+	box-shadow: 5px 5px 5px gray;
+}
+.welcome {
+	text-shadow: 5px 5px 5px gray;
 }
