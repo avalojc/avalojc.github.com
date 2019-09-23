@@ -73,6 +73,10 @@ header {
 	margin: 4px 0 10px 0;
 	padding: 4px;
 }
+footer:hover, header:hover {
+	background: #3b3b3b;
+	color: #fff;
+}
 footer{
 	background: #fff;
 	display: flex;
@@ -112,6 +116,7 @@ footer{
 }
 ul li {
 	display: inline;
+	color: inherit;
 }
 img {
 	width: 100%;
@@ -156,7 +161,7 @@ img {
 }
 a {
 	text-decoration: none;
-	color: black;
+	color: inherit;
 }
 h1 {
 	font-size: 2em;
