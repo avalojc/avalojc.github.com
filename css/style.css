@@ -118,6 +118,9 @@ ul li {
 	display: inline;
 	color: inherit;
 }
+ul li a:hover, ul li:hover {
+	text-decoration: underline;
+}
 img {
 	width: 100%;
 }
