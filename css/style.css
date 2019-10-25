@@ -129,7 +129,7 @@ img {
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-.hijoA, .hijoB, .hijoC, .alpha, .beta{
+#hijo, .alpha, .beta{
 	height: 200px;
 	width: 200px;
 	background: yellow;
@@ -137,6 +137,10 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+#hijo {
+	display: flex;
+	flex-direction: column;
 }
 img {
 	height: 150px;
@@ -150,7 +154,6 @@ img {
 
 .Photo {
 	height: 220px;
-
 	align-self: center;
 	margin: 4px 0px 4px 0px;
 	display: flex;
@@ -177,7 +180,7 @@ h2 {
 	font-size: 1.5em;
 }
 /*shadow sections below*/
-header, .hijoA, .hijoB, .hijoC, .Me1, .Me2, .Me3, .alpha, .beta, footer {
+header, #hijo, .Me1, .Me2, .Me3, .alpha, .beta, footer {
 	box-shadow: 5px 5px 5px gray;
 }
 .welcome {
