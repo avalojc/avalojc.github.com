@@ -143,8 +143,8 @@ img {
 	flex-direction: column;
 }
 img {
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 }
 .greek {
 	display: flex;
