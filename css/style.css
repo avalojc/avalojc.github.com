@@ -138,6 +138,10 @@ img {
 	align-items: center;
 	justify-content: center;
 }
+img {
+	height: 150px;
+	width: 150px;
+}
 .greek {
 	display: flex;
 	flex-direction: row;
