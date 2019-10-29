@@ -121,15 +121,13 @@ ul li {
 ul li a:hover, ul li:hover {
 	text-decoration: underline;
 }
-img {
-	width: 100%;
-}
+
 .alphabet {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-#hijo, .alpha, .beta{
+.alpha, .beta{
 	height: 200px;
 	width: 200px;
 	background: yellow;
@@ -138,13 +136,19 @@ img {
 	align-items: center;
 	justify-content: center;
 }
-#hijo {
+.hijo {
 	display: flex;
 	flex-direction: column;
+	height: 200px;
+	width: 200px;
+	background: yellow;
+	margin: 4px;
+	justify-content: center;
+	align-items: center;
 }
 img {
-	height: 100px;
-	width: 100px;
+	height: 175px;
+	width: 175px;
 }
 .greek {
 	display: flex;
@@ -180,7 +184,7 @@ h2 {
 	font-size: 1.5em;
 }
 /*shadow sections below*/
-header, #hijo, .Me1, .Me2, .Me3, .alpha, .beta, footer {
+header, .hijo, .Me1, .Me2, .Me3, .alpha, .beta, footer {
 	box-shadow: 5px 5px 5px gray;
 }
 .welcome {
