@@ -91,7 +91,7 @@ footer{
 	/* background: url(../images/ladybug.png); */
 	display: flex;
 	flex-direction: column;
-	width: 1000px;
+	width: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	width: 250px;
@@ -102,7 +102,7 @@ footer{
 	width: 200px;
 	align-self: center;
 	justify-self: flex-end;
-	margin: 200px 2px 2px 2px;
+	margin: 100px 2px 2px 2px;
 	padding: 20px 0 20px 0;
 	text-align: center;
 }
@@ -112,7 +112,7 @@ footer{
 	color:black;
 	font-size: 1.5em;
 	font-weight: 900;
-	margin-top: 200px;
+	margin-top: 100px;
 }
 ul li {
 	display: inline;
@@ -125,7 +125,8 @@ ul li a:hover, ul li:hover {
 .alphabet {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
+
 }
 .alpha, .beta{
 	height: 200px;
@@ -141,14 +142,16 @@ ul li a:hover, ul li:hover {
 	flex-direction: column;
 	height: 200px;
 	width: 200px;
-	background: yellow;
+	background: rgb(0, 98, 190);
 	margin: 4px;
 	justify-content: center;
 	align-items: center;
+	border-radius: 100px;
 }
 img {
 	height: 175px;
 	width: 175px;
+	border-radius: 100px;
 }
 .greek {
 	display: flex;
@@ -168,10 +171,11 @@ img {
 .Me1, .Me2, .Me3{
 	height: 200px;
 	width: 200px;
-	background: greenyellow;
+	background: rgb(47, 255, 210);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 100px;
 }
 a {
 	text-decoration: none;
@@ -187,6 +191,11 @@ h2 {
 header, .hijo, .Me1, .Me2, .Me3, .alpha, .beta, footer {
 	box-shadow: 5px 5px 5px gray;
 }
-.welcome {
+/* .welcome {
 	text-shadow: 5px 5px 5px gray;
+
+} */
+#stickyNotes {
+	width: 100%;
+
 }
