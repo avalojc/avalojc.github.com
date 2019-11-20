@@ -71,7 +71,7 @@ header {
 	width: 980px;
 	height: 40px;
 	margin: 4px 0 10px 0;
-	padding: 4px;
+	padding: 8px;
 }
 footer:hover, header:hover {
 	background: #3b3b3b;
@@ -85,7 +85,7 @@ footer{
 	width: 98%;
 	height: 40px;
 	margin: 4px 0 4px 0;
-	padding: 4px;
+	padding: 8px;
 }
 .main {
 	/* background: url(../images/ladybug.png); */
@@ -140,13 +140,13 @@ ul li a:hover, ul li:hover {
 .hijo {
 	display: flex;
 	flex-direction: column;
-	height: 200px;
-	width: 200px;
+	height: 190px;
+	width: 190px;
 	background: rgb(0, 98, 190);
 	margin: 4px;
 	justify-content: center;
 	align-items: center;
-	border-radius: 100px;
+	border-radius: 150px;
 }
 img {
 	height: 175px;
@@ -197,5 +197,7 @@ header, .hijo, .Me1, .Me2, .Me3, .alpha, .beta, footer {
 } */
 #stickyNotes {
 	width: 100%;
-
+}
+#gitIcon {
+	size: 1em;
 }
