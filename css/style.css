@@ -50,22 +50,28 @@ table {
 	border-spacing: 0;
 }
 
+html, body {
+	width: 100%;
+	height: auto;
+}
+
 /****************** Start *************/
 body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	position: relative;
-	height: 100vh;
-	padding-bottom:40 px;
+	padding-bottom:56 px;
 }
 .wrapper {
-	width: 1000px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	margin: 0;
+	margin-bottom: 56px;
+
 }
 .placer {
 	width: 1000px;
@@ -99,12 +105,11 @@ footer .placer a {
 	width: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
-	width: 250px;
 }
 .hiblock {
 	display: flex;
 	flex-direction: column;
-	width: 200px;
+	width: 100%;
 	align-self: center;
 	justify-self: flex-end;
 	margin: 100px 2px 2px 2px;
@@ -130,7 +135,7 @@ ul li a:hover, ul li:hover {
 .alphabet {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 
 }
 .hijo {
@@ -254,5 +259,12 @@ header, .hijo, .Me, .alpha, .beta, footer {
 		justify-content: center;
 		border-radius: 200px;
 	}
-
+	.welcome {
+		width: 100%;
+	}
   }
+@media only screen and (min-width: 1000px) {
+	.wrapper {
+		width: 1000px;
+  }
+}
